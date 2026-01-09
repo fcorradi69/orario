@@ -5,7 +5,8 @@ const ASSETS_TO_CACHE = [
   'app.js',
   'service-worker.js',
   'manifest.json',
-  'images/icon-512.png'
+  'images/orario.svg',
+  'images/icon-512.png',
 ];
 
 // Install: cache dei file base
