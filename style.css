@@ -424,4 +424,15 @@
       to {
         opacity: 0;
       }
+
+    }
+
+@media screen and (min-width: 600px) {
+      .page {
+       width: fit-content;
+
+       & .content {
+        padding-left: 10px;
+       }
+      }      
     }
