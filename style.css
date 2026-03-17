@@ -101,8 +101,8 @@
           width: 100px;
         }
 
-        & input {
-          width: 100px;
+       & input, & .input {
+          width: 134px;
         }
       }
 
@@ -186,7 +186,7 @@
       background-color: var(--input-background-color);
       outline: 1px solid transparent;
       border-radius: 3px;
-      font-size: 14pt;
+      font-size: 18pt;
       font-weight: 400;
       color: var(--text-color);
       width: 100px;
