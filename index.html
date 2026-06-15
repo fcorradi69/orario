@@ -22,16 +22,6 @@
             .catch((err) => console.log("service worker not registered"));
         });
       }
-
-      if(navigator.storage && navigator.storage.persist) {
-        navigator.storage.persist().then(ispersistent => {
-          if(ispersistent) {
-            console.log("Storage will not be cleared except by explicit user action");
-          } else {
-            console.log("Storage may be cleared by the UA under storage pressure.");
-          }
-        });
-      }
     </script>
   </body>
 </html>
